@@ -1,0 +1,94 @@
+[
+  {
+    "output_image": {
+      "type": "base64",
+      "value": "",
+      "video_metadata": {
+        "video_identifier": "image",
+        "frame_number": 0,
+        "frame_timestamp": "2025-06-23T20:31:43.044753",
+        "fps": 30,
+        "measured_fps": null,
+        "comes_from_video_file": null
+      }
+    },
+    "predictions": {
+      "image": {
+        "width": null,
+        "height": null
+      },
+      "predictions": []
+    },
+    "dynamic_crop": [
+      {
+        "type": "base64",
+        "value": "",
+        "video_metadata": {
+          "video_identifier": "214c23d5-8514-461a-b52a-39b1c00122a4",
+          "frame_number": 0,
+          "frame_timestamp": "2025-06-23T20:31:43.045245",
+          "fps": 30,
+          "measured_fps": null,
+          "comes_from_video_file": null
+        }
+      }
+    ],
+    "detection_predictions": {
+      "image": {
+        "width": 560,
+        "height": 317
+      },
+      "predictions": [
+        {
+          "width": 193.37347412109375,
+          "height": 125.64834594726562,
+          "x": 384.0910339355469,
+          "y": 83.94406127929688,
+          "confidence": 0.8672446012496948,
+          "class_id": 0,
+          "class": "leaf-liriomyza",
+          "detection_id": "214c23d5-8514-461a-b52a-39b1c00122a4",
+          "parent_id": "image"
+        }
+      ]
+    },
+    "classification_predictions": [
+      {
+        "inference_id": "1e8610d6-4602-48d1-8605-1033d481fca7",
+        "predictions": {
+          "inference_id": "1e8610d6-4602-48d1-8605-1033d481fca7",
+          "time": 0.020650398000725545,
+          "image": {
+            "width": 194,
+            "height": 126
+          },
+          "predictions": [
+            {
+              "x": 97.5303213596344,
+              "y": 58.39355432987213,
+              "width": 187.66707944869995,
+              "height": 109.98434519767761,
+              "confidence": 0.7568720579147339,
+              "class": "leaf-liriomyza",
+              "class_id": 0,
+              "detection_id": "1401cd83-4697-4652-9ee0-3887ed1b1e23"
+            },
+            {
+              "x": 47.62901854515076,
+              "y": 69.88101100921631,
+              "width": 83.12608766555786,
+              "height": 100.21805000305176,
+              "confidence": 0.7010188102722168,
+              "class": "leaf-liriomyza",
+              "class_id": 0,
+              "detection_id": "531cd19d-70d1-4c50-9289-9fcdf0a426ee"
+            }
+          ],
+          "prediction_type": "classification",
+          "parent_id": "214c23d5-8514-461a-b52a-39b1c00122a4",
+          "root_parent_id": "image"
+        }
+      }
+    ]
+  }
+]
